@@ -3,9 +3,9 @@ from itertools import groupby
 
 Person = namedtuple('Person', ['name', 'age', 'height'])
 
-persons = [Person('Tim', 63, 193), Person('Eva', 47, 158),
-           Person('Markus', 71, 172), Person('Alex', 45, 193),
-           Person('Jeff', 63, 193), Person('Ryanold', 41, 184),
+persons = [Person('Timofey', 63, 193), Person('Eva', 47, 158),
+           Person('Markus', 71, 172), Person('Alexey', 45, 193),
+           Person('Jeffry', 63, 193), Person('Ryanold', 41, 184),
            Person('Arianatt', 28, 158), Person('Liam', 69, 193),
            Person('Eugene', 71, 172), Person('Alex', 45, 193),
            Person('Eugene', 63, 193), Person('Ryan', 41, 184),
