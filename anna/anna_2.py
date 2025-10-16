@@ -4,9 +4,9 @@ from itertools import groupby
 Person = namedtuple('Person', ['name', 'age', 'height'])
 
 persons = [Person('Tim', 63, 193), Person('Eva', 47, 158),
-           Person('Mark', 71, 172), Person('Alex', 45, 193),
-           Person('Jeff', 63, 193), Person('Ryan', 41, 184),
-           Person('Ariana', 28, 158), Person('Liam', 69, 193)]
+           Person('Eugene', 71, 172), Person('Alex', 45, 193),
+           Person('Eugene', 63, 193), Person('Ryan', 41, 184),
+           Person('Eugene', 28, 158), Person('Liam', 69, 193)]
 group_iter = groupby(sorted(persons, key=lambda x: x[2]), key=lambda x: x[2])
 for key, values in group_iter:
     print(f'{key}: {", ".join(sorted(list(map(lambda x: x[0], values))))}')
