@@ -1,2 +1,2 @@
 print('My name is Dmitry')
-print('Дима, привет!')
+#print('Дима, привет!')
