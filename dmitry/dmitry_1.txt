@@ -1,2 +1,5 @@
 Add string
 Hello, my name is Dmitrii
+Hello, my name is Dmitrii
+Дима, желаю удачи!
+
